@@ -1,0 +1,13 @@
+to export:
+
+pip install --upgrade jupyter
+pip install nbconvert
+
+jupyter nbconvert --to html jupyter_notebook.ipynb
+
+or you can exclude --to html since it is the default behavior. Multiple inputs ok too:
+
+jupyter nbconvert notebook*.ipynb
+
+
+
